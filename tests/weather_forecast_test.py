@@ -1,9 +1,11 @@
 import pytest
 from gql.resolvers import schema
 from graphene.test import Client
+from config import config
 
 @pytest.fixture
 def client():
+    config.base_path = 'tests/resources'
     return Client(schema)
 
 def test_query_weather_forecast_by_dates_with_data(client):
