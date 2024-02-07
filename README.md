@@ -19,16 +19,16 @@ pytest
 pytest --cov=services tests/
 
 ### DIRECTORIES
-config              Config app values
-controllers         Flask controllers 
-data                Files with data
-docs                Project doc
-domain              Domain entities
-gql                 GraphQL Entitites and Resolvers
-repositories        Repositories implemented to access data files
-services            Services with injected repositories to form responses
+config              Config app values\
+controllers         Flask controllers\ 
+data                Files with data\
+docs                Project doc\
+domain              Domain entities\
+gql                 GraphQL Entitites and Resolvers\
+repositories        Repositories implemented to access data files\
+services            Services with injected repositories to form responses\
 
 ### DECISIONS
-GraphQL add flexibility to client and simplify endpoints
-Flask   have a simple integration to GraphQL
-Pandas  powerfull data analisys specificaly to explore csv files
+GraphQL add flexibility to client and simplify endpoints\
+Flask   have a simple integration to GraphQL\
+Pandas  powerfull data analisys specificaly to explore csv files\
