@@ -1,0 +1,2 @@
+DATE_FORMAT="%Y-%m-%d"
+CSV_SEPARATOR=";"
